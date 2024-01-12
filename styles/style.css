@@ -1,0 +1,30 @@
+html {
+    background-color: #c7ddf1;
+    color: rgb(117, 111, 122);
+    font-family: 'Arial';
+  }
+
+.headshot {
+  max-width:20%;
+  height:auto;
+}
+
+.skiphoto {
+  max-width:50%;
+  height:auto;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  max-width: 70%
+ }
+
+ .soc_button {
+  max-width: 10%;
+ }
+
+ .soc_img {
+  max-width: 100%;
+  max-height: 20px;
+ }

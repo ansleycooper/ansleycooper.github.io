@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./styles/style.css" rel="stylesheet" />
+    <link href="./styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <!--name-->
+    <h1>Ansley Cooper</h1> 
+    <div class = intro>
+        <img class= headshot src="./photos/headshot.png" alt="me">
+        <!--description-->
+        <p>Ansley is a Northeastern Student studying for a
+            Bachelor's in Data Science and Biochemistry. 
+            She has studied various methods for scraping, 
+            cleaning, and processing data over various 
+            languages. Ansley's persistent can-do attitude 
+            allows her to thrive and problem solves in any 
+            situation, and her leadership and communication 
+            skills ensure optimal outcomes.
+        </p>
+        </div>
+    
+    <!--things I want to include later-->
+    <h3>Coming soon!</h3>
+    <ul>
+    <li>Coding Projects</li>
+    <li>Publications</li>
+    <li>Upcoming talks and confrences</li>
+    </ul>
+    
+    <div>
+        <h3>My Resume</h3>
+        <a href="./photos" download="Resume2024.pdf">Download</a>
+    </div>
+
+    <div>
+        <h2>My Socials</h2>
+        <button class = soc_button
+        onclick="NewTab('https://www.linkedin.com/in/ansley-cooper/')">
+        <img class = soc_img src="photos/LinkedIn_Logo.png" alt="buttonpng" border="0" />
+        </button>
+        <button class = soc_button
+        onclick="NewTab('https://www.instagram.com/?hl=en')">
+        <img class = soc_img src="photos/insta_logo.jpg" alt="buttonpng" border="0" />
+        </button>
+    </div>
+    
+    <h3>Contact Me</h3>
+    <div class="input-group">
+        <textarea type="text" class="form-control" 
+        id="NewMsg" placeholder="Message"></textarea> 
+      <div id = post_bttn class="input-group-append">
+          <button class="btn btn-outline" 
+          ng-click="post()"><i class="far fa-plus-square">
+          </i> New Message</button></div>
+    </div>
+    <ul id="messages"></ul>
+
+    <div><img class= skiphoto img src="./photos/skiing.JPG" alt="me"></div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
